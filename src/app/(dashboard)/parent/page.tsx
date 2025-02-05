@@ -17,7 +17,7 @@ const ParentPage = async () => {
   return (
     <div className="flex-1 p-4 flex gap-4 flex-col xl:flex-row">
       {/* LEFT */}
-      <div className="">
+    /*  <div className="">
         {students.map((student) => (
           <div className="w-full xl:w-2/3" key={student.id}>
             <div className="h-full bg-white p-4 rounded-md">
@@ -28,7 +28,7 @@ const ParentPage = async () => {
             </div>
           </div>
         ))}
-      </div>
+      </div>*/
       {/* RIGHT */}
       <div className="w-full xl:w-1/3 flex flex-col gap-8">
         <Announcements />
