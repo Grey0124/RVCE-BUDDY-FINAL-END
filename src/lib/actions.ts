@@ -63,12 +63,14 @@ export const updateSubject = async (
 export const deleteSubject = async (
   currentState: CurrentState,
   data: FormData
+  //data: SubjectSchema 
 ) => {
   const id = data.get("id") as string;
   try {
     await prisma.subject.delete({
       where: {
         id: parseInt(id),
+        //id: data.id,
       },
     });
 

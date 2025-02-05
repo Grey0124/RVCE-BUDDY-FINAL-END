@@ -135,6 +135,7 @@ const FormModal = ({
         setOpen(false);
         router.refresh();
       }
+      
     }, [state, router]);
 
     return type === "delete" && id ? (
